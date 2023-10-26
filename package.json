@@ -1,0 +1,21 @@
+{
+  "name": "e-commerce-site",
+  "version": "1.0.0",
+  "description": "E commerce Site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "set NODE_ENV = development &&  nodemon backend/server.js",
+    "prod": "set NODE_ENV = production &&  nodemon backend/server.js"
+  },
+  "author": "saran",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
