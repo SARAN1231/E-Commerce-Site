@@ -2,6 +2,8 @@ const Product = require('../models/productmodel')
 const ErrorHandler = require("../utils/ErrorHandler")
 const catchAsyncerror = require("../middleware/catchAsyncerror")
 const APIFeatures = require("../utils/apiFeatures")
+
+
 //get product --> api/v1/products
 exports.getProducts =async(req,res,next) => {
   const resPerPage = 2;
